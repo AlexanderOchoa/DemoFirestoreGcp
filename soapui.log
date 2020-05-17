@@ -1,3 +1,0 @@
-2020-05-16 23:48:46,862 WARN  [DefaultSoapUICore] Missing folder [C:\Users\eochoa\ext] for external libraries
-2020-05-16 23:48:47,287 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\eochoa\soapui-settings.xml]
-2020-05-16 23:48:48,042 INFO  [WorkspaceImpl] Loading workspace from [C:\Users\eochoa\intellij-soapui-workspace.xml]
