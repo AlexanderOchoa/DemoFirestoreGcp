@@ -1,0 +1,14 @@
+//register
+curl -H "Content-Type: application/json" --data "{\"code\": \"CLI08\", \"name\": \"test8\", \"type\": \"2\"}" http://localhost:8099/clients
+//list
+curl http://localhost:8099/clients
+//get
+curl http://localhost:8099/clients/CLI03
+//update
+curl -H "Content-Type: application/json" --data "{\"code\": \"CLI08\", \"name\": \"test8\", \"type\": \"2\"}" -X PUT http://localhost:8099/clients
+//delete
+curl -X DELETE http://localhost:8099/clients/CLI03
+//quantity-page
+curl -H "Content-Type: application/json" --data "{\"type\": \"1\", \"page\": \"\", \"limit\": \"\", \"sort\": \"\", \"typeSort\": \"\"}" http://localhost:8099/clients/quantity-page
+//list-page
+curl -H "Content-Type: application/json" --data "{\"type\": \"1\", \"page\": \"0\", \"limit\": \"2\", \"sort\": \"\", \"typeSort\": \"\"}" http://localhost:8099/clients/list-page
